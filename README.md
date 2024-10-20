@@ -19,6 +19,7 @@ This repository provides a detailed guide to controlling a **3-phase induction m
 ---
 
 ## Overview
+[![Watch the video](https://img.youtube.com/vi/7XRjqi22TJw/0.jpg)](https://www.youtube.com/watch?v=7XRjqi22TJw)
 
 This project demonstrates how to control a **3-phase induction motor** using a **VFD** and an **ESP32 microcontroller**. The VFD adjusts the motor’s speed and direction by varying the **input voltage and frequency**. Using the **Arduino Cloud dashboard**, the motor's speed and direction can be controlled remotely.
 
@@ -51,6 +52,8 @@ Since the ESP32 outputs a maximum of **3.3V**, you will need to configure the VF
 ## Wiring Setup
 
 Follow the wiring diagram to correctly connect the ESP32, VFD, and relays:
+
+
 
 1. **P1 (ESP32 GPIO 18)** → Controls motor forward direction (connected to relay).  
 2. **P2 (ESP32 GPIO 19)** → Controls motor reverse direction (connected to relay).  
