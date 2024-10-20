@@ -52,7 +52,8 @@ Since the ESP32 outputs a maximum of **3.3V**, you will need to configure the VF
 ## Wiring Setup
 
 Follow the wiring diagram to correctly connect the ESP32, VFD, and relays:
-![Induction Motor Control Diagram](https://github.com/Dev-Saeed/Induction-Motor-Control-via-Dashboard/blob/main/Induction-Motor-Control-via-Dashboard.drawio.png)
+
+![Induction Motor Control Diagram](https://github.com/Dev-Saeed/Induction-Motor-Control-via-Dashboard/blob/main/Induction-Motor-Control-via-Dashboard.drawio.png.png)
 
 1. **P1 (ESP32 GPIO 18)** → Controls motor forward direction (connected to relay).  
 2. **P2 (ESP32 GPIO 19)** → Controls motor reverse direction (connected to relay).  
